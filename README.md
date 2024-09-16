@@ -1,4 +1,4 @@
-Easy Polish
+#Easy Polish
 Easy Polish Platform is a user-friendly tool designed for fast and simple photo editing. With Easy Polish, you can quickly adjust key image attributes including saturation, brightness, greyscale, and inversion. Perfect for effortless photo enhancements in just a few clicks.
 
 
