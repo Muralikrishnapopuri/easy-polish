@@ -1,0 +1,13 @@
+/*main font*/
+:root{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+   --white-theme:blue;
+   --white-theme-light:rgb(0, 0, 113);
+   --dark-theme:rgb(0, 255, 204);
+   --dark-theme-light:rgb(0, 134, 105);
+   --bg-white:rgb(255, 255, 255);
+   --bg-dark:rgb(2, 0, 36);
+}

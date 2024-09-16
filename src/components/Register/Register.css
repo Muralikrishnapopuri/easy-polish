@@ -1,0 +1,774 @@
+.register-dark{
+    width: 100%;
+
+    background-color: black;
+}
+.register-white{
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    /* height: auto; */
+    
+}
+
+.theme{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 0 0 ;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+#nav-item1{
+    display: flex;
+    align-items: center;
+}
+.theme a{
+    text-decoration: none;
+}
+
+
+
+#reg-2 a{
+    text-align: center;
+}
+/*toggle theme*/
+.toggle-white {
+    border: 1px solid rgb(178, 202, 223);
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+    transition: all 200ms;
+    cursor: pointer;
+  }
+  .toggle-dark {
+    border: 1px solid rgb(178, 202, 223);
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+    transition: all 200ms;
+    cursor: pointer;
+
+  }
+  
+  .switch {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(178, 202, 223);
+    border-radius: 999px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    transition: ease-in 200ms;
+  }
+  
+  .slide {
+    transition: ease-in 200ms;
+    position: absolute;
+    left: 65%;
+  }
+
+@media screen and (min-width:1200px) and (max-width:2000px){
+    .register-dark{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    .register-white{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .register-main{
+        display: grid;
+        grid-template-columns: 30rem 35rem;
+        gap: 2rem;
+        
+    }
+    #reg-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    #reg-2 div{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    /*signup name*/
+    #reg-2 .signup-white{
+        background: -webkit-linear-gradient(var(--white-theme), var(--white-theme-light));
+        -webkit-background-clip: text;
+        font-size: 2rem;
+       
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    #reg-2 .signup-dark{
+        background: -webkit-linear-gradient(var(--dark-theme), var(--dark-theme-light));
+        -webkit-background-clip: text;
+        font-size: 2rem;
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    /*div & inputs btns*/
+    
+    .reg-2-dark{
+        box-shadow: 0.1px 0.1px 6px  rgb(0, 51, 40), -3px -3px 30px  rgb(0, 51, 40);
+        
+    }
+    .reg-2-dark{
+        background-color: rgb(0, 36, 28);
+        color: white;
+        border-radius: 1rem;
+    }
+    .reg-2-dark div .input-dark{
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:100%;
+        height: 2rem;
+    }
+    /*white*/
+    .reg-2-white{
+        box-shadow: 0.1px 0.1px 6px  rgb(232, 232, 255), -3px -3px 30px  rgb(232, 232, 255);
+    }
+    .reg-2-white{
+        background-color: rgb(232, 232, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 1rem;
+    }
+    .reg-2-white div .input-white{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:100%;
+        height: 2rem;
+    }
+    
+    /*btns*/
+    .reg-2-dark div .btn-dark{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:#ffffff;
+        padding: 1rem 0rem;
+        transition: 0.2s ease-in-out;
+        text-shadow: 1px 1px 4px rgb(119, 116, 116);
+        background: linear-gradient(130deg, rgb(48, 255, 221) 15%, rgb(17, 173, 126) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 248, 181), -3px -3px 3px  rgb(89, 255, 222);
+    }
+    .reg-2-white div .btn-white{
+        border: none;
+        padding: 1rem 0rem;
+    
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        /* text-shadow: 1px 1px 4px rgb(255, 255, 255); */
+        transition: 0.2s ease-in-out;
+        background: linear-gradient(130deg, rgb(48, 114, 255) 15%, rgb(39, 119, 184) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 109, 248), -3px -3px 3px  rgb(97, 89, 255);
+    }
+    .reg-2-white div .btn-white:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px  rgb(87, 25, 0);
+        cursor: pointer;
+    }
+    .reg-2-dark div .btn-dark:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px black;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    .register-dark{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    .register-white{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .register-main{
+        display: grid;
+        grid-template-columns: 20rem 25rem;
+        gap: 2rem;
+        padding-top: 2rem;
+        
+    }
+    #reg-2 div a{
+        font-size: 0.4rem;
+    }
+    #reg-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    
+    #reg-2 div{
+        
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    /*signup name*/
+    #reg-2 .signup-white{
+        background: -webkit-linear-gradient(var(--white-theme), var(--white-theme-light));
+        -webkit-background-clip: text;
+        font-size: 2rem;
+       
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    #reg-2 .signup-dark{
+        background: -webkit-linear-gradient(var(--dark-theme), var(--dark-theme-light));
+        -webkit-background-clip: text;
+        font-size: 2rem;
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    /*div & inputs btns*/
+    
+    .reg-2-dark{
+        box-shadow: 0.1px 0.1px 6px  rgb(0, 51, 40), -3px -3px 30px  rgb(0, 51, 40);
+        
+    }
+    .reg-2-dark{
+        background-color: rgb(0, 36, 28);
+        color: white;
+        border-radius: 1rem;
+    }
+    .reg-2-dark div .input-dark{
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:100%;
+        height: 2rem;
+    }
+    /*white*/
+    .reg-2-white{
+        box-shadow: 0.1px 0.1px 6px  rgb(232, 232, 255), -3px -3px 30px  rgb(232, 232, 255);
+    }
+    .reg-2-white{
+        background-color: rgb(232, 232, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 1rem;
+    }
+    .reg-2-white div .input-white{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:100%;
+        height: 2rem;
+    }
+    
+    /*btns*/
+    .reg-2-dark div .btn-dark{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:#ffffff;
+        padding: 1rem 0rem;
+        transition: 0.2s ease-in-out;
+        text-shadow: 1px 1px 4px rgb(119, 116, 116);
+        background: linear-gradient(130deg, rgb(48, 255, 221) 15%, rgb(17, 173, 126) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 248, 181), -3px -3px 3px  rgb(89, 255, 222);
+    }
+    .reg-2-white div .btn-white{
+        border: none;
+        padding: 1rem 0rem;
+    
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        /* text-shadow: 1px 1px 4px rgb(255, 255, 255); */
+        transition: 0.2s ease-in-out;
+        background: linear-gradient(130deg, rgb(48, 114, 255) 15%, rgb(39, 119, 184) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 109, 248), -3px -3px 3px  rgb(97, 89, 255);
+    }
+    .reg-2-white div .btn-white:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px  rgb(87, 25, 0);
+        cursor: pointer;
+    }
+    .reg-2-dark div .btn-dark:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px black;
+        cursor: pointer;
+    }
+
+}
+@media screen and (min-width:700px) and (max-width:900px){
+    .register-dark{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    .register-white{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .register-main{
+
+        display: grid;
+        grid-template-columns: 10rem 20rem;
+        gap: 2rem;
+        padding-top: 2rem;
+        
+    }
+    #reg-2 div a{
+        font-size: 0.4rem;
+    }
+    #reg-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    
+    #reg-2 div{
+        
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    /*signup name*/
+    #reg-2 .signup-white{
+        background: -webkit-linear-gradient(var(--white-theme), var(--white-theme-light));
+        -webkit-background-clip: text;
+        font-size: 2rem;
+       
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    #reg-2 .signup-dark{
+        background: -webkit-linear-gradient(var(--dark-theme), var(--dark-theme-light));
+        -webkit-background-clip: text;
+        font-size: 2rem;
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    /*div & inputs btns*/
+    
+    .reg-2-dark{
+        box-shadow: 0.1px 0.1px 6px  rgb(0, 51, 40), -3px -3px 30px  rgb(0, 51, 40);
+        
+    }
+    .reg-2-dark{
+        background-color: rgb(0, 36, 28);
+        color: white;
+        border-radius: 1rem;
+    }
+    .reg-2-dark div .input-dark{
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:100%;
+        height: 2rem;
+    }
+    /*white*/
+    .reg-2-white{
+        box-shadow: 0.1px 0.1px 6px  rgb(232, 232, 255), -3px -3px 30px  rgb(232, 232, 255);
+    }
+    .reg-2-white{
+        background-color: rgb(232, 232, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 1rem;
+    }
+    .reg-2-white div .input-white{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:100%;
+        height: 2rem;
+    }
+    
+    /*btns*/
+    .reg-2-dark div .btn-dark{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:#ffffff;
+        padding: 1rem 0rem;
+        transition: 0.2s ease-in-out;
+        text-shadow: 1px 1px 4px rgb(119, 116, 116);
+        background: linear-gradient(130deg, rgb(48, 255, 221) 15%, rgb(17, 173, 126) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 248, 181), -3px -3px 3px  rgb(89, 255, 222);
+    }
+    .reg-2-white div .btn-white{
+        border: none;
+        padding: 1rem 0rem;
+    
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        /* text-shadow: 1px 1px 4px rgb(255, 255, 255); */
+        transition: 0.2s ease-in-out;
+        background: linear-gradient(130deg, rgb(48, 114, 255) 15%, rgb(39, 119, 184) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 109, 248), -3px -3px 3px  rgb(97, 89, 255);
+    }
+    .reg-2-white div .btn-white:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px  rgb(87, 25, 0);
+        cursor: pointer;
+    }
+    .reg-2-dark div .btn-dark:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px black;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:700px){
+    .register{
+        height: 100vh;
+    }
+    .register-main{
+        display: grid;
+        grid-template-columns: 25rem;
+        grid-template-rows: 10rem 30rem;
+        gap: 2rem;
+        padding-top: 2rem;
+        height: 100vh;
+        
+    }
+
+    #reg-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    
+    #reg-2 div{
+        
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    /*signup name*/
+    #reg-2 .signup-white{
+        background: -webkit-linear-gradient(var(--white-theme), var(--white-theme-light));
+        -webkit-background-clip: text;
+        font-size: 2rem;
+       
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    #reg-2 .signup-dark{
+        background: -webkit-linear-gradient(var(--dark-theme), var(--dark-theme-light));
+        -webkit-background-clip: text;
+        font-size: 2rem;
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    /*div & inputs btns*/
+    
+    .reg-2-dark{
+        box-shadow: 0.1px 0.1px 6px  rgb(0, 51, 40), -3px -3px 30px  rgb(0, 51, 40);
+        
+    }
+    .reg-2-dark{
+        background-color: rgb(0, 36, 28);
+        color: white;
+        border-radius: 1rem;
+    }
+    .reg-2-dark div .input-dark{
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:100%;
+        height: 2rem;
+    }
+    /*white*/
+    .reg-2-white{
+        box-shadow: 0.1px 0.1px 6px  rgb(232, 232, 255), -3px -3px 30px  rgb(232, 232, 255);
+    }
+    .reg-2-white{
+        background-color: rgb(232, 232, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 1rem;
+    }
+    .reg-2-white div .input-white{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:100%;
+        height: 2rem;
+    }
+    
+    /*btns*/
+    .reg-2-dark div .btn-dark{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:#ffffff;
+        padding: 1rem 0rem;
+        transition: 0.2s ease-in-out;
+        text-shadow: 1px 1px 4px rgb(119, 116, 116);
+        background: linear-gradient(130deg, rgb(48, 255, 221) 15%, rgb(17, 173, 126) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 248, 181), -3px -3px 3px  rgb(89, 255, 222);
+    }
+    .reg-2-white div .btn-white{
+        border: none;
+        padding: 1rem 0rem;
+    
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        /* text-shadow: 1px 1px 4px rgb(255, 255, 255); */
+        transition: 0.2s ease-in-out;
+        background: linear-gradient(130deg, rgb(48, 114, 255) 15%, rgb(39, 119, 184) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 109, 248), -3px -3px 3px  rgb(97, 89, 255);
+    }
+    .reg-2-white div .btn-white:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px  rgb(87, 25, 0);
+        cursor: pointer;
+    }
+    .reg-2-dark div .btn-dark:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px black;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .register{
+        height: 100vh;
+    }
+    .register-main{
+        display: grid;
+        grid-template-columns: 18rem;
+        grid-template-rows: 10rem 30rem;
+        gap: 2rem;
+        padding-top: 2rem;
+        height: 100vh;
+        
+    }
+
+    #reg-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        /* padding: 2rem; */
+    }
+    
+    #reg-2 div{
+        height: 500px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        gap: 1rem;
+        
+    }
+    /*signup name*/
+    #reg-2 .signup-white{
+        background: -webkit-linear-gradient(var(--white-theme), var(--white-theme-light));
+        -webkit-background-clip: text;
+        font-size: 1.4rem;
+       
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    #reg-2 .signup-dark{
+        background: -webkit-linear-gradient(var(--dark-theme), var(--dark-theme-light));
+        -webkit-background-clip: text;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        -webkit-text-fill-color: transparent;
+    }
+    /*div & inputs btns*/
+    
+    .reg-2-dark{
+        box-shadow: 0.1px 0.1px 6px  rgb(0, 51, 40), -3px -3px 30px  rgb(0, 51, 40);
+        
+    }
+    .reg-2-dark{
+        background-color: rgb(0, 36, 28);
+        color: white;
+        border-radius: 1rem;
+    }
+    #reg-2{
+        padding: 3rem;
+    }
+    #reg-2 div{
+        height: 500px;
+        width: 100%;
+        /* justify-content: center; */
+        padding-left: 2rem;
+    }
+    .reg-2-dark div .input-dark{
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        padding-left: 2rem;
+        width:70%;
+        height: 1rem;
+    }
+    /*white*/
+    .reg-2-white{
+        box-shadow: 0.1px 0.1px 6px  rgb(232, 232, 255), -3px -3px 30px  rgb(232, 232, 255);
+    }
+    .reg-2-white{
+        background-color: rgb(232, 232, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 1rem;
+    }
+    .reg-2-white div .input-white{
+        border: none;
+        background-color: rgb(255, 255, 255);
+        outline: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        width:70%;
+        height: 1rem;
+    }
+    
+    /*btns*/
+    .reg-2-dark div .btn-dark{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:#ffffff;
+        width: 10rem;
+        padding: 1rem 0rem;
+        transition: 0.2s ease-in-out;
+        text-shadow: 1px 1px 4px rgb(119, 116, 116);
+        background: linear-gradient(130deg, rgb(48, 255, 221) 15%, rgb(17, 173, 126) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 248, 181), -3px -3px 3px  rgb(89, 255, 222);
+    }
+    .reg-2-white div .btn-white{
+        border: none;
+        padding: 1rem 0rem;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        transition: 0.2s ease-in-out;
+        background: linear-gradient(130deg, rgb(48, 114, 255) 15%, rgb(39, 119, 184) 87%);
+        box-shadow: 0.1px 0.1px 10px  rgb(81, 109, 248), -3px -3px 3px  rgb(97, 89, 255);
+    }
+    .reg-2-white div .btn-white:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px  rgb(87, 25, 0);
+        cursor: pointer;
+    }
+    .reg-2-dark div .btn-dark:hover{
+        border: none;
+        font-weight: bolder;
+        border-radius: 2rem;
+        color:rgb(255, 255, 255);
+        text-shadow: -1px -1px 4px rgb(0, 0, 0);
+        background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+        box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px black;
+        cursor: pointer;
+    }
+
+}

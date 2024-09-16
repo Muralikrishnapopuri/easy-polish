@@ -1,0 +1,1288 @@
+/*background*/
+.Home-white{
+    background-color: var(--bg-white);
+    /* height: 100vh; */
+    width: 100%;
+    
+}
+.Home-dark{
+    background-color: var(--bg-dark);
+    /* height: 100vh; */
+    width: 100%;
+}
+/*SIte name*/
+#Site-Name-dark{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1rem;
+   
+
+}
+#Site-Name-white{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bolder;
+
+   
+}
+
+/*flex header*/
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.navbar{
+    display: flex;
+}
+.navbar #nav-item1{
+    display: flex;
+    align-items: center;
+}
+.navbar #nav-item2{
+    
+    display: flex;
+   
+    align-items: center;
+    
+
+}
+/*nav buttons */
+.entry-btns-white #signup{
+    color: black;
+    
+}
+.entry-btns-white span,.entry-btns-dark span{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.entry-btns-white #login{
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin-left: 1rem;
+
+}
+.entry-btns-white #login:hover{
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 0.7rem 2rem;
+    background-color:gold;
+    box-shadow: 0.1px 0.1px 3px  gold, -3px -3px 3px  rgb(255, 231, 95);
+    margin-left: 1rem;
+
+    cursor: pointer;
+
+}
+.entry-btns-white #signup{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    margin-right: 0.2rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+
+    transition: 0.2s ease-in-out;
+
+
+}
+.entry-btns-white #signup:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+    margin-right: 0.2rem;
+    margin-left: 1rem;
+
+    background: linear-gradient(130deg, rgb(38, 0, 255) 15%, rgb(8, 0, 95) 87%);
+    box-shadow: 0.1px 0.1px 3px  rgb(117, 115, 218), -3px -3px 3px  rgb(8, 0, 153);
+    border-radius: 2rem;
+   
+
+
+}
+
+.entry-btns-dark #login{
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 1rem;
+
+    transition: 0.4s ease-in-out;
+}
+.entry-btns-dark #login:hover{
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 0.7rem 2rem;
+    background-color: gold;
+    box-shadow: 0.1px 0.1px 3px  gold, -3px -3px 3px  rgb(255, 231, 95);
+
+    cursor: pointer;
+    margin-left: 1rem;
+
+    transition: 0.4s ease-in-out;
+}
+.entry-btns-dark #signup{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    margin-right: 0.2rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+
+    transition: 0.2s ease-in-out;
+
+
+}
+.entry-btns-dark #signup:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+    margin-right: 0.2rem;
+    margin-left: 1rem;
+
+    background: linear-gradient(130deg, var(--dark-theme) 15%, var(--dark-theme-light) 87%);
+    box-shadow: 0.1px 0.1px 3px  var(--dark-theme), -3px -3px 3px  var(--dark-theme-light);
+    border-radius: 2rem;
+   
+
+
+}
+/*btn2*/
+.entry-btns-2-white #signup{
+    color: black;
+    
+}
+.entry-btns-2-white span,.entry-btns-2-dark span{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.entry-btns-2-white #login{
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin-left: 1rem;
+
+}
+.entry-btns-2-white #login:hover{
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 0.7rem 2rem;
+    background-color:gold;
+    box-shadow: 0.1px 0.1px 3px  gold, -3px -3px 3px  rgb(255, 231, 95);
+    margin-left: 1rem;
+
+    cursor: pointer;
+
+}
+.entry-btns-2-white #signup{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    margin-right: 0.2rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+
+    transition: 0.2s ease-in-out;
+
+
+}
+.entry-btns-2-white #signup:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+    margin-right: 0.2rem;
+    margin-left: 1rem;
+
+    background: linear-gradient(130deg, rgb(38, 0, 255) 15%, rgb(8, 0, 95) 87%);
+    box-shadow: 0.1px 0.1px 3px  rgb(117, 115, 218), -3px -3px 3px  rgb(8, 0, 153);
+    border-radius: 2rem;
+   
+
+
+}
+
+.entry-btns-2-dark #login{
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 1rem;
+
+    transition: 0.4s ease-in-out;
+}
+.entry-btns-2-dark #login:hover{
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 0.7rem 2rem;
+    background-color: gold;
+    box-shadow: 0.1px 0.1px 3px  gold, -3px -3px 3px  rgb(255, 231, 95);
+
+    cursor: pointer;
+    margin-left: 1rem;
+
+    transition: 0.4s ease-in-out;
+}
+.entry-btns-2-dark #signup{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    margin-right: 0.2rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+
+    transition: 0.2s ease-in-out;
+
+
+}
+.entry-btns-2-dark #signup:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+    margin-right: 0.2rem;
+    margin-left: 1rem;
+
+    background: linear-gradient(130deg, var(--dark-theme) 15%, var(--dark-theme-light) 87%);
+    box-shadow: 0.1px 0.1px 3px  var(--dark-theme), -3px -3px 3px  var(--dark-theme-light);
+    border-radius: 2rem;
+   
+
+
+}
+/*toggle theme*/
+.toggle-white {
+    border: 1px solid rgb(178, 202, 223);
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+    transition: all 200ms;
+    cursor: pointer;
+  }
+  .toggle-dark {
+    border: 1px solid rgb(178, 202, 223);
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+    transition: all 200ms;
+    cursor: pointer;
+
+  }
+  
+  .switch {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(178, 202, 223);
+    border-radius: 999px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    transition: ease-in 200ms;
+  }
+  
+  .slide {
+    transition: ease-in 200ms;
+    position: absolute;
+    left: 65%;
+  }
+
+.description{
+    display: flex;
+}
+/*des-title theme*/
+.des-title-white{
+    background: -webkit-linear-gradient(var(--white-theme), var(--white-theme-light));
+    -webkit-background-clip: text;
+    font-size: 2rem;
+   
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+}
+.des-title-dark{
+    background: -webkit-linear-gradient(var(--dark-theme), var(--dark-theme-light));
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+}
+/*btns*/
+.des-btn-dark{
+    border: none;
+    font-weight: bolder;
+    border-radius: 2rem;
+    color:#ffffff;
+    transition: 0.2s ease-in-out;
+
+    text-shadow: 1px 1px 4px rgb(119, 116, 116);
+    background: linear-gradient(130deg, rgb(48, 255, 221) 15%, rgb(17, 173, 126) 87%);
+    box-shadow: 0.1px 0.1px 10px  rgb(81, 248, 181), -3px -3px 3px  rgb(89, 255, 222);
+}
+.des-btn-white{
+    border: none;
+
+    font-weight: bolder;
+    border-radius: 2rem;
+    color:rgb(255, 255, 255);
+    /* text-shadow: 1px 1px 4px rgb(255, 255, 255); */
+    transition: 0.2s ease-in-out;
+    background: linear-gradient(130deg, rgb(48, 114, 255) 15%, rgb(39, 119, 184) 87%);
+    box-shadow: 0.1px 0.1px 10px  rgb(81, 109, 248), -3px -3px 3px  rgb(97, 89, 255);
+}
+.des-btn-white:hover{
+    border: none;
+    font-weight: bolder;
+    border-radius: 2rem;
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px 4px rgb(0, 0, 0);
+    background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+    box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px  rgb(87, 25, 0);
+    cursor: pointer;
+}
+.des-btn-dark:hover{
+    border: none;
+    font-weight: bolder;
+    border-radius: 2rem;
+    color:rgb(255, 255, 255);
+    text-shadow: -1px -1px 4px rgb(0, 0, 0);
+    background: linear-gradient(130deg, gold 15%, rgb(87, 25, 0) 87%);
+    box-shadow: 0.1px 0.1px 10px  gold, -3px -3px 3px black;
+    cursor: pointer;
+}
+/*features section*/
+.features-white{
+    color: rgb(0, 0, 0);
+
+}
+/* nav-item2 */
+.features-dark{
+    color: rgb(255, 255, 255);
+    
+}
+/*features-sub*/
+.features-sub{
+    display: flex;
+}
+/*cards*/
+.f-card-white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(130deg, #f4f3ff 15%, rgba(0, 42, 255, 0.16) 87%);
+    box-shadow:  0.1px 0.1px 6px  rgb(232, 232, 232), -0.1px -0.1px 3px  rgb(159, 154, 233);;
+    
+    border-radius: 0.3rem;
+    
+}
+.f-card-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(130deg, rgb(0, 0, 0) 15%, rgb(23, 60, 50) 87%);
+    box-shadow:  0.1px 0.1px 6px  rgb(53, 53, 53), -0.1px -0.1px 3px  rgb(159, 154, 233);
+    border-radius: 0.3rem;
+    
+    
+}
+
+.des-2-white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(90deg, #d1cdff 15%, rgb(255, 255, 255) 87%);
+
+}
+.des-2-dark{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    background: linear-gradient(90deg, #00756f 15%, var(--bg-dark) 87%);
+ 
+}
+/*matter theme*/
+.matter-white{
+    color: black;
+}
+.matter-dark{
+    
+ color: white;
+}
+.footer-white{
+    display: flex;
+
+    color: white;
+    background: linear-gradient(90deg, rgb(21, 21, 83) 15%, rgb(0, 18, 78) 87%);
+}
+.footer-dark{
+    display: flex;
+
+    color: white;
+    background: linear-gradient(90deg, rgb(15, 57, 55) 15%, rgb(4, 51, 35) 87%);
+
+}
+
+@media screen and (min-width:1330px) and (max-width:2000px){
+    .logo{
+        width: 5rem;
+    }
+    .description{
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 6rem;
+        align-items: center;
+    
+    }
+    .navbar #nav-item2{
+        gap: 5rem;
+
+        
+    
+    }
+    .editor-sec-1 h1{
+        font-size: 4rem;
+        width: 700px;
+    }
+    .editor-sec-1 p{
+
+        padding: 1.5rem 0;
+       font-size: 1.5rem;
+        width: 42rem;
+    }
+    .editor-sec-2 .animation-1{
+        width: 2rem;
+    }
+    .des-btn-white{
+        padding:1rem 2rem ;
+        font-size: 1.5rem;
+    }
+    .des-btn-white:hover{
+        padding:1rem 2rem ;
+      
+        font-size: 1.5rem;
+    }
+    .des-btn-dark{
+        padding:1rem 2rem ;
+        font-size: 1.5rem;
+    }
+    .des-btn-dark:hover{
+        padding:1rem 2rem ;
+        font-size: 1.5rem;
+    }
+    .features-dark svg, .features-white svg{
+        font-size: 2rem;
+    }
+
+    .features-sub{
+        flex-direction: row;
+        margin: 3rem 0;
+        gap: 2rem;
+
+    }
+    .features-white, .features-dark{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+       /* padding: 2rem 5rem; */
+    }
+    /*cards*/
+    .f-card-white{
+        padding: 1rem 4rem;
+        gap: 1rem;
+    }
+    .f-card-dark{
+        padding: 1rem 4rem;
+        gap: 1rem;
+
+
+    }
+    .matter-dark{
+        line-height: 2rem;
+        width: 700px;
+    }
+    .matter-white{
+        line-height: 2rem;
+        width: 700px;
+    }
+    /*footer*/
+.footer-white{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.footer-dark{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.footer-dark span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+
+
+}
+.footer-white span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.entry-btns-2-white a #signup,.entry-btns-2-dark a #signup{
+    display: none;
+} 
+.entry-btns-2-white a #login,.entry-btns-2-dark a #login{
+    display: none;
+} 
+.footer-white span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+.footer-dark span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+
+}
+
+@media screen and (min-width:1000px) and (max-width:1330px){
+    .logo{
+        width: 4rem;
+    }
+    .description{
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 6rem;
+        align-items: center;
+    
+    }
+    .editor-sec-1 h1{
+        font-size: 3rem;
+        padding-left: 5rem;
+        width: 700px;
+
+    }
+    .navbar #nav-item2{
+        gap: 5rem;
+
+        
+    
+    }
+    .editor-sec-1 p{
+
+        padding: 1rem 0 1rem 5rem;
+       font-size: 1rem;
+        width: 42rem;
+    }
+    .editor-sec-2 .animation-1{
+        width: 5rem;
+    }
+    .des-btn-white{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+    }
+    .des-btn-white:hover{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .des-btn-dark{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .des-btn-dark:hover{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .features-dark svg, .features-white svg{
+        font-size: 1rem;
+    }
+    .features-sub{
+        flex-direction: row;
+        margin: 3rem 0;
+        gap: 2rem;
+
+    }
+    .features-white, .features-dark{
+        padding-top: 2rem;
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+       /* padding: 2rem 5rem; */
+    }
+    /*cards*/
+    .f-card-white{
+        padding: 1rem 3rem;
+        gap: 1rem;
+        font-size: 0.6rem;
+
+    }
+    .f-card-dark{
+        padding: 1rem 3rem;
+        font-size: 0.6rem;
+        gap: 1rem;
+
+
+    }
+    .matter-dark{
+        line-height: 2rem;
+        width: 700px;
+        margin-right: 3rem;
+    }
+    .matter-white{
+        line-height: 2rem;
+        width: 700px;
+        margin-right: 3rem;
+
+    }
+    /*footer*/
+.footer-white{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.footer-dark{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.Home-white, .Home-dark{
+    padding-top: 2rem;
+}
+.footer-dark span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+
+
+}
+.footer-white span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.footer-white span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+.footer-dark span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+.entry-btns-2-white a #signup,.entry-btns-2-dark a #signup{
+    display: none;
+} 
+.entry-btns-2-white a #login,.entry-btns-2-dark a #login{
+    display: none;
+} 
+
+}
+@media screen and (min-width:800px) and (max-width:1000px){
+    .Home-white, .Home-dark{
+        padding-top: 2rem;
+    }
+    .logo{
+        width: 3rem;
+    }
+    .navbar #nav-item2{
+        gap: 5rem;
+
+        
+    
+    }
+    .description{
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 6rem;
+        align-items: center;
+    
+    }
+    .editor-sec-1 h1{
+        font-size: 3rem;
+        padding-left: 5rem;
+        width: 400px;
+
+    }
+    .editor-sec-1 p{
+
+        padding: 1rem 0 1rem 5rem;
+       font-size: 1rem;
+        width: 20rem;
+    }
+    .editor-sec-2 .animation-1{
+        width: 10rem;
+    }
+    .des-btn-white{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+    }
+    .des-btn-white:hover{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .des-btn-dark{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .des-btn-dark:hover{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .features-dark svg, .features-white svg{
+        font-size: 2rem;
+    }
+    .features-sub{
+        display: grid;
+        grid-template-columns: 20rem 20rem;
+        
+        margin: 3rem 0;
+        gap: 2rem;
+
+    }
+    .features-white, .features-dark{
+        padding-top: 2rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+       /* padding: 2rem 5rem; */
+    }
+    /*cards*/
+    .f-card-white{
+        padding: 1rem 3rem;
+        gap: 1rem;
+        font-size: 1rem;
+
+    }
+    .f-card-dark{
+        padding: 1rem 3rem;
+        font-size: 1rem;
+
+        gap: 1rem;
+
+
+    }
+    .navbar #nav-item2{
+        gap: 5rem;
+
+        
+    
+    }
+    .matter-dark{
+        line-height: 2rem;
+        width: 700px;
+        margin-right: 3rem;
+    }
+    .matter-white{
+        line-height: 2rem;
+        width: 700px;
+        margin-right: 3rem;
+
+    }
+    /*footer*/
+.footer-white{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.footer-dark{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.footer-dark span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+
+
+}
+.footer-white span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.entry-btns-2-white a #signup,.entry-btns-2-dark a #signup{
+    display: none;
+} 
+.entry-btns-2-white a #login,.entry-btns-2-dark a #login{
+    display: none;
+} 
+.footer-white span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+.footer-dark span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+
+}
+
+@media screen and (min-width:500px) and (max-width:800px){
+    .Home-white, .Home-dark{
+        padding-top: 2rem;
+    }
+    .logo{
+        width: 3rem;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .description{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 6rem;
+        align-items: center;
+    
+    }
+    .editor-sec-1 h1{
+        font-size: 2rem;
+        padding-left: 5rem;
+        width: 400px;
+
+    }
+    .navbar #nav-item2{
+        gap: 1rem;
+
+        
+    
+    }
+    .entry-btns-white a #signup{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .entry-btns-dark a #signup{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .entry-btns-white a #login{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .entry-btns-dark a #login{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .editor-sec-1 p{
+
+        padding: 1rem 0 1rem 5rem;
+       font-size: 1rem;
+        width: 17rem;
+    }
+    .editor-sec-2 .animation-1{
+        width: 10rem;
+    }
+    .des-btn-white{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+    }
+    .des-btn-white:hover{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .des-btn-dark{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .des-btn-dark:hover{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        margin-left: 5rem;
+
+    }
+    .features-dark svg, .features-white svg{
+        font-size: 2rem;
+    }
+    .features-sub{
+        display: grid;
+        grid-template-columns: 13rem 13rem;
+        
+        margin: 3rem 0;
+        gap: 2rem;
+
+    }
+    .features-white, .features-dark{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+       /* padding: 2rem 5rem; */
+    }
+    /*cards*/
+    .f-card-white{
+        padding: 1rem 3rem;
+        gap: 1rem;
+        font-size: 1rem;
+
+    }
+    .f-card-dark{
+        padding: 1rem 3rem;
+        font-size: 1rem;
+
+        gap: 1rem;
+
+
+    }
+    .matter-dark{
+        line-height: 2rem;
+        width: 500px;
+        margin-right: 3rem;
+        padding-top: 2rem;
+
+    }
+    .matter-white{
+        line-height: 2rem;
+        width: 500px;
+        margin-right: 3rem;
+        padding-top: 2rem;
+
+    }
+    /*footer*/
+.footer-white{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 3rem;
+}
+.footer-dark{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: 1rem 3rem;
+}
+.entry-btns-2-white a #signup,.entry-btns-2-dark a #signup{
+    display: none;
+} 
+.entry-btns-2-white a #login,.entry-btns-2-dark a #login{
+    display: none;
+} 
+.footer-dark span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+
+
+}
+.footer-white span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.footer-white span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+.footer-dark span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .Home-white, .Home-dark{
+        padding-top: 2rem;
+    }
+    .logo{
+        width: 3rem;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .description{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 6rem;
+        align-items: center;
+    
+    }
+    .editor-sec-1 h1{
+        font-size: 2rem;
+        
+        width: 300px;
+
+    }
+     .editor-sec-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+
+    .des-title-white{
+        padding: 0;
+        margin: 0;
+    }
+    .editor-sec-1 p{
+        width: 300px;
+    }
+    .navbar #nav-item2{
+        gap: 1rem;
+
+        
+    
+    }
+    .entry-btns-white a #signup{
+        display: none;
+     }
+     .entry-btns-dark a #signup{
+        display: none;
+     }
+     .entry-btns-white a #login{
+        display: none;
+     }
+     .entry-btns-dark a #login{
+        display: none;
+     }
+     .entry-btns-2-white {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        justify-content: center;
+     }
+     .entry-btns-2-dark {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        justify-content: center;
+     }
+    .entry-btns-2-white a #signup{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .entry-btns-2-dark a #signup{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .entry-btns-2-white a #login{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .entry-btns-2-dark a #login{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .editor-sec-1 p{
+
+margin-bottom: 2rem;
+    }
+    .editor-sec-2 .animation-1{
+        width: 10rem;
+    }
+    .des-btn-white{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        /* margin-left: 5rem; */
+    }
+    .des-btn-white:hover{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        /* margin-left: 5rem; */
+
+    }
+    .des-btn-dark{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        /* margin-left: 5rem; */
+
+    }
+    .des-btn-dark:hover{
+        padding:0.5rem 1.5rem ;
+        font-size: 1rem;
+        /* margin-left: 5rem; */
+
+    }
+    .features-dark svg, .features-white svg{
+        font-size: 2rem;
+    }
+    .features-sub{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        margin: 3rem 0;
+        gap: 2rem;
+
+    }
+    .features-white, .features-dark{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+       /* padding: 2rem 5rem; */
+    }
+    /*cards*/
+    .f-card-white{
+        padding: 1rem 3rem;
+        gap: 1rem;
+        font-size: 1rem;
+
+    }
+    .f-card-dark{
+        padding: 1rem 3rem;
+        font-size: 1rem;
+
+        gap: 1rem;
+
+
+    }
+    .des-2-dark{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 3rem;
+
+    }
+    .des-2-white{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 3rem;
+    }
+    .matter-dark{
+        line-height: 2rem;
+        width: auto;
+
+        width: 80%;
+
+
+
+    }
+    .matter-white{
+        line-height: 2rem;
+        width: 80%;
+        padding: 2rem 2rem;
+
+
+        
+
+    }
+    /*footer*/
+.footer-white{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 3rem;
+}
+.footer-dark{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: 1rem 3rem;
+}
+.footer-dark span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.footer-white span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    word-spacing: 1rem;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.footer-white span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+.footer-dark span svg:hover{
+    cursor: pointer;
+    color: gold;
+}
+.footer-dark h5, .footer-white h5{
+    font-size: 0.7rem;
+}
+
+}
