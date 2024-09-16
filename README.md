@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy Polish Platform</title>
-</head>
-<body>
+
     <h1>Easy Polish Platform</h1>
     <p>Welcome to the Easy Polish Platform! This tool is designed to help you edit your photos quickly and effortlessly.</p>
     
@@ -30,8 +23,7 @@
     <footer>
         <p>&copy; 2024 Easy Polish Platform. All rights reserved.</p>
     </footer>
-</body>
-</html>
+
 
 # React + Vite
 
