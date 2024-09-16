@@ -1,6 +1,6 @@
 
-    <h1>Easy Polish Platform</h1>
-    <p>Welcome to the Easy Polish Platform! This tool is designed to help you edit your photos quickly and effortlessly.</p>
+    Easy Polish Platform
+    Welcome to the Easy Polish Platform! This tool is designed to help you edit your photos quickly and effortlessly
     
     <h2>Features</h2>
     <ul>
