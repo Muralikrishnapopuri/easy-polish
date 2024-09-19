@@ -50,7 +50,7 @@ function Login() {
           <Link to="/">
                <div id="nav-item1">
                     <img className='logo' src={theme==0?White:Black} alt="Logo" />
-                    <span id={theme?"Site-Name-dark":"Site-Name-white"}>PIXEL POLISH</span>
+                    <span id={theme?"Site-Name-dark":"Site-Name-white"}>IXEL POLISH</span>
                 </div>
 
           </Link>
