@@ -26,8 +26,8 @@ function Home() {
         <header>
             <nav className='navbar'>
                 <div id="nav-item1">
-                    <img className='logo' src={theme==0?White:Black} alt="Logo" />
-                    <span id={theme?"Site-Name-dark":"Site-Name-white"}>PIXEL POLISH</span>
+                    <img className='logo' src={theme==0?White:Black} alt="Logo" style={{filter:'drop-shadow(2px 2px 1px black)',}} />
+                    <span id={theme?"Site-Name-dark":"Site-Name-white"}>IXEL POLISH</span>
                 </div>
 
                 <div id="nav-item2">

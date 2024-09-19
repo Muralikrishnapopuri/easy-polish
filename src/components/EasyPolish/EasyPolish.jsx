@@ -42,7 +42,7 @@ function EasyPolish() {
         <div id="nav-item1">
            <div>
            <img className='logo' src={theme==0?White:Black} alt="Logo" />
-           <span id={theme?"Site-Name-dark":"Site-Name-white"}>EASY POLISH</span>
+           <span id={theme?"Site-Name-dark":"Site-Name-white"} style={{marginRight:"1rem"}}>ixels Polish </span>
            </div>
            <div className='cards' id='cards'>
           <button className='btn1' onClick={()=>{
